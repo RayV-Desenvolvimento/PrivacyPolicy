@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Termos de Uso para Produtores - RAYV</title>
+    <title>Termos de Uso - RAYV</title>
     <style>
         body {
             background-color: #000;
@@ -12,60 +12,66 @@
             margin: 0;
             padding: 0;
         }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px 120px;
-        }
-        .header {
+        header {
+            padding: 20px;
             text-align: center;
-            margin-bottom: 40px;
+            background: #000;
         }
-        .logo {
-            width: 150px;
+        header img {
+            max-width: 200px;
         }
-        .nav {
-            margin-bottom: 40px;
-            text-align: center;
+        nav {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
         }
-        .nav a {
+        nav a {
+            margin: 0 10px;
             color: #fff;
             text-decoration: none;
-            margin: 0 10px;
-            padding: 5px 10px;
-            border: 1px solid #fff;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .content {
+            padding: 120px 120px;
         }
         .sectionTitle {
-            font-size: 24px;
-            margin: 20px 0 10px;
             font-weight: bold;
+            margin-top: 20px;
         }
         .body {
-            font-size: 16px;
-            margin-bottom: 20px;
+            margin-top: 10px;
+            line-height: 1.6;
         }
         .listItem {
+            display: block;
             margin-left: 20px;
-            list-style-type: disc;
+            list-style: disc;
+        }
+        .link {
+            color: #1E90FF;
+            text-decoration: none;
+        }
+        .link:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <img src="logo.png" alt="Logo da Empresa" class="logo">
-        </div>
-        <div class="nav">
-            <a href="CookiesUser.html">Política de Cookies para Usuário</a>
-            <a href="CookiesProducer.html">Política de Cookies para Produtor</a>
-            <a href="index.html">Termos de Uso para Usuário</a>
-            <a href="TermsProducer.html">Termos de Uso para Produtor</a>
-            <a href="PrivacyUser.html">Política de Privacidade para Usuário</a>
-            <a href="PrivacyProducer.html">Política de Privacidade para Produtor</a>
-        </div>
-        <div class="sectionTitle">
-            TERMOS DE USO PARA PRODUTORES DA PLATAFORMA E APLICATIVO RAYV
-        </div>
+    <header>
+        <img src="logo.png" alt="Logo da Empresa">
+    </header>
+    <nav>
+        <a href="CookiesUser.html">Política de Cookies para Usuário</a>
+        <a href="CookiesProducer.html">Política de Cookies para Produtor</a>
+        <a href="index.html">Termos de Uso para Usuário</a>
+        <a href="TermsProducer.html">Termos de Uso para Produtor</a>
+        <a href="PrivacyUser.html">Política de Privacidade para Usuário</a>
+        <a href="PrivacyProducer.html">Política de Privacidade para Produtor</a>
+    </nav>
+    <div class="content">
+        <div class="sectionTitle">TERMOS DE USO PARA PRODUTORES DA PLATAFORMA E APLICATIVO RAYV</div>
         <div class="sectionTitle">1. A Plataforma</div>
         <div class="body">
             A RAYV é uma plataforma tecnológica disponível para produtores e casas de eventos, facilitando a venda de ingressos, inscrição para eventos, cobrança de contribuições para eventos e a gestão de participantes, acessível no endereço eletrônico www.rayv.com.br, ou por meio dos aplicativos oficiais. É uma pessoa jurídica de direito privado, inscrita no CNPJ sob o nº X, com endereço na X.
@@ -90,8 +96,7 @@
             2.2.1. O Organizador exonera a RAYV de qualquer responsabilidade civil, seja ela de natureza moral ou material, incluindo lucros cessantes e danos emergentes, resultantes das ações relacionadas à produção e realização dos eventos. O Organizador concorda em indenizar imediatamente a RAYV caso esta seja condenada judicialmente, sem a necessidade de uma ação de regresso. Se a RAYV incorrer em prejuízos devido a litígios, ela terá o direito de demandar o Organizador, que será responsável pelos custos judiciais, custas e honorários advocatícios equivalentes a 20% do valor da causa.
         </div>
         <div class="body">
-            2.3. A plataforma RAYV e suas funcionalidades são fornecidas aos usuários na
-            forma como estão disponíveis, sujeitas a melhorias e atualizações regulares. A RAYV se compromete a:
+            2.3. A plataforma RAYV e suas funcionalidades são fornecidas aos usuários na forma como estão disponíveis, sujeitas a melhorias e atualizações regulares. A RAYV se compromete a:
         </div>
         <div class="listItem">
             a) Manter as funcionalidades da plataforma RAYV operacionais, com links funcionais e layouts que promovam a usabilidade e navegabilidade;
@@ -185,9 +190,7 @@
         <div class="listItem">
             c) Causar qualquer dano ou prejuízo a terceiros ou à própria RAYV no uso da plataforma RAYV.
         </div>
-        <div class="sectionTitle">
-            5. Responsabilidades e obrigações dos Produtores na criação de eventos
-        </div>
+        <div class="sectionTitle">5. Responsabilidades e obrigações dos Produtores na criação de eventos</div>
         <div class="body">
             5.1. Ao criar eventos na Plataforma RAYV, os Produtores devem:
         </div>
@@ -272,7 +275,7 @@
             7.5. O Organizador deve garantir que não haja fraudes nas compras de ingressos e colaborar com a RAYV, quando solicitado, para investigar qualquer suspeita de fraude.
         </div>
         <div class="body">
-             7.5.1. Se a RAYV identificar, por meio de sua análise de risco, que o Organizador está envolvido intencionalmente em fraudes na venda de ingressos para seus eventos, poderá tomar medidas como o cancelamento dos ingressos, o estorno dos pagamentos feitos com cartão de crédito, a exclusão da conta e a responsabilização judicial do Organizador.
+            7.5.1. Se a RAYV identificar, por meio de sua análise de risco, que o Organizador está envolvido intencionalmente em fraudes na venda de ingressos para seus eventos, poderá tomar medidas como o cancelamento dos ingressos, o estorno dos pagamentos feitos com cartão de crédito, a exclusão da conta e a responsabilização judicial do Organizador.
         </div>
         <div class="sectionTitle">8. Entrega dos ingressos</div>
         <div class="body">
@@ -302,18 +305,14 @@
         <div class="body">
             8.6. A RAYV poderá enviar comunicações relacionadas aos ingressos e eventos, sendo responsabilidade dos usuários garantir que seus sistemas anti-spam ou filtros não interfiram no recebimento dessas comunicações. A falta de recebimento de e-mails devido a esses filtros não dará direito a compensações ou indenizações.
         </div>
-        <div class="sectionTitle">
-            9. Uso dos ingressos e participação nos eventos
-        </div>
+        <div class="sectionTitle">9. Uso dos ingressos e participação nos eventos</div>
         <div class="body">
             9.1. Os ingressos adquiridos pelos Consumidores garantem sua participação no evento de acordo com as condições estabelecidas pelo Organizador. O Organizador deve garantir o acesso dos Participantes ao evento sempre que apresentarem um ingresso válido por meio do aplicativo da RAYV.
         </div>
         <div class="body">
             9.2. A plataforma RAYV oferece ferramentas para o controle adequado da entrada dos Participantes nos eventos. A decisão de não utilizar essas ferramentas, bem como os problemas resultantes dessa escolha, são de responsabilidade exclusiva do Organizador. O uso dessas ferramentas evita o acesso de Participantes com ingressos inválidos, como cópias não autorizadas, ingressos invalidados devido a suspeitas de fraude, contestações de compra, trocas de titularidade não autorizadas, cancelamentos de compra ou ingressos falsificados.
         </div>
-        <div class="sectionTitle">
-            10. Cancelamento e restituição de compras
-        </div>
+        <div class="sectionTitle">10. Cancelamento e restituição de compras</div>
         <div class="body">
             10.1. Se houver necessidade de reembolsar o Comprador, o Organizador deve realizar essa operação exclusivamente através das ferramentas disponíveis na plataforma RAYV, não sendo permitido o reembolso por outros meios.
         </div>
@@ -326,9 +325,7 @@
         <div class="body">
             10.4. Se o Comprador exercer seu direito de arrependimento conforme o Código de Defesa do Consumidor, o Organizador deve reembolsar o valor do ingresso em até sete dias a partir da data da compra.
         </div>
-        <div class="sectionTitle">
-            11. Eventos cancelados ou substancialmente alterados
-        </div>
+        <div class="sectionTitle">11. Eventos cancelados ou substancialmente alterados</div>
         <div class="body">
             11.1. O Organizador deve comunicar imediatamente à RAYV qualquer cancelamento, alteração significativa ou outra modificação relevante referente ao seu evento.
         </div>
@@ -341,9 +338,7 @@
         <div class="body">
             11.4. A RAYV pode deduzir valores do repasse ou cobrar do Organizador posteriormente, inclusive retendo valores de outros eventos, se houver débitos pendentes.
         </div>
-        <div class="sectionTitle">
-            12. Disputas e estornos de compras
-        </div>
+        <div class="sectionTitle">12. Disputas e estornos de compras</div>
         <div class="body">
             12.1. As disputas são analisadas pela operadora de cartão de crédito, processadores de pagamento e pela RAYV.
         </div>
@@ -353,9 +348,7 @@
         <div class="body">
             12.3. A RAYV conduz disputas, como chargebacks, sem a necessidade de aprovação do Organizador em certos casos, como não cumprimento de políticas de reembolso, suspeitas de fraude, cancelamento do evento, erro técnico ou reclamações dos Consumidores.
         </div>
-        <div class="sectionTitle">
-            13. Recebimento de valores das vendas e taxa de serviço
-        </div>
+        <div class="sectionTitle">13. Recebimento de valores das vendas e taxa de serviço</div>
         <div class="body">
             13.1. O Organizador recebe o valor das vendas por transferência bancária, deduzida a taxa de serviço, até o terceiro dia útil após o término do evento.
         </div>
@@ -397,9 +390,7 @@
         <div class="body">
             15.5. O Organizador deve informar à RAYV sobre as operações de recebíveis e autorizar a divulgação dessas informações ao sistema de registro.
         </div>
-        <div class="sectionTitle">
-            16. Direitos de propriedade intelectual
-        </div>
+        <div class="sectionTitle">16. Direitos de propriedade intelectual</div>
         <div class="body">
             16.1. A RAYV detém os direitos sobre sua marca e conteúdos, protegidos pelas leis de direitos autorais, marcas e patentes.
         </div>
@@ -424,9 +415,7 @@
         <div class="body">
             16.7.1. A RAYV pode solicitar comprovação de pagamento ao ECAD pelo Organizador. O não cumprimento pode levar à despublicação do evento.
         </div>
-        <div class="sectionTitle">
-            17. Segurança da plataforma RAYV
-        </div>
+        <div class="sectionTitle">17. Segurança da plataforma RAYV</div>
         <div class="body">
             17.1. Não é permitido acesso às áreas de programação da plataforma.
         </div>
@@ -443,9 +432,7 @@
         <div class="body">
             18.1.1. A Política de Privacidade prevalece em caso de conflito com os Termos de Uso.
         </div>
-        <div class="sectionTitle">
-            19. Proteção de registros, informações e comunicações privadas
-        </div>
+        <div class="sectionTitle">19. Proteção de registros, informações e comunicações privadas</div>
         <div class="body">
             19.1. A RAYV só disponibilizará registros de acesso ou informações pessoais mediante ordem judicial.
         </div>
@@ -465,9 +452,7 @@
         <div class="body">
             20.2. O Organizador deve colaborar com investigações em casos de incidentes de segurança de dados.
         </div>
-        <div class="sectionTitle">
-            21. Limitação da Responsabilidade
-        </div>
+        <div class="sectionTitle">21. Limitação da Responsabilidade</div>
         <div class="body">
             21.1. É estabelecido de forma clara que a RAYV não assume a obrigação de supervisionar todas as atividades realizadas pelos usuários na Plataforma RAYV e, portanto, não pode ser responsabilizada pelas ações dos usuários, incluindo aquelas de natureza ilegal, imoral ou antiética. Os usuários são os únicos responsáveis por quaisquer reclamações de terceiros ou processos judiciais, isentando a RAYV de qualquer responsabilidade.
         </div>
